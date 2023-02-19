@@ -2,15 +2,18 @@
 
 /**
  * main - prints alpha in lower case
+ * followed by new line, expect q and e
  * Return: 0
  */
 int main(void)
-{
-	char lc;
 
-	for (lc = 'a'; lc <= 'z'; lc++)
+{
+	char la;
+
+	for (la = 'a'; lc <= 'z'; lc++)
 	{
-		putchar(lc);
+		if (la != 'e' && la != 'q')
+		putchar(la);
 	}
 	putchar('\n');
 
