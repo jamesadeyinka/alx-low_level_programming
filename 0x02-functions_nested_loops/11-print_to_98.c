@@ -2,7 +2,7 @@
 #include "main.h"
 
 /**
- * print_to_98 - print all number form input to 98
+ * print_to_98 - print all numbers form input to 98
  * @n: the starting number
  */
 void print_to_98(int n);
@@ -17,6 +17,6 @@ void print_to_98(int n);
 	{
 		while (n < 98)
 			printf("%d, ", n++);
-		print("%d\n", n);
+		printf("%d\n", n);
 	}
 }
